@@ -14,7 +14,7 @@ const Sidebar = () => {
           <LiaTimesSolid />
         </button>
       </div>
-      <ul className="list">
+      <ul className="links">
         {links.map((link) => {
           const { id, url, text, icon } = link
           return (
@@ -27,7 +27,7 @@ const Sidebar = () => {
           )
         })}
       </ul>
-      <ul className="social-list">
+      <ul className="social-links">
         {social.map((link) => {
           const { id, url, icon } = link
           return (
