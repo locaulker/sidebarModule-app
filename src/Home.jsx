@@ -1,4 +1,5 @@
-import { FaBars } from "react-icons/fa"
+// import { FaBars } from "react-icons/fa"
+import { LiaBarsSolid } from "react-icons/lia"
 import { useGlobalContext } from "./context"
 
 const Home = () => {
@@ -8,7 +9,8 @@ const Home = () => {
   return (
     <main>
       <button onClick={openSidebar} className="sidebar-toggle">
-        <FaBars />
+        {/* <FaBars /> */}
+        <LiaBarsSolid />
       </button>
       <button onClick={openModal} className="btn">
         Show Modal
@@ -17,3 +19,5 @@ const Home = () => {
   )
 }
 export default Home
+
+LiaBarsSolid
